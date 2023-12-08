@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Comfortaa-Light";
+    src: url("./asserts/font/Comfortaa-Light.ttf");
+}
+
+@font-face {
+    font-family: "Comfortaa-Regular";
+    src: url("Polices/Comfortaa-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa-Light";
+    text-decoration: none;
+}
+
+body {
+    margin: auto;
+}
+
+#top-left-bar {
+    width: 250px;
+    height: 34px;
+    background-color: rgb(255, 217, 0);
+}
+
+#top-right-bar {
+    width: 100%;
+    height: 34px;
+    background-color: rgb(199, 5, 5);
+    margin-left: 4px;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -24px;
+}
+
+#right-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 80px;
+}
+
+.Laval {
+    font-size: 33px;
+}
+
+.menuPremo li {
+    list-style: none;
+    display: inline-block;
+    padding: 1px;
+    margin-right: 40px;
+}
+
+.menuPremo li a {
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    font-family: "Comfortaa-Light";
+    color: black;
+}
+
+nav {
+    width: 100%;
+    background-color: #424558;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav > ul > li {
+    float: left;
+    position: relative;
+}
+
+nav > ul > li > a {
+    padding: 20px 30px;
+    color: aliceblue;
+}
+
+nav > ul > li > a:hover {
+    padding-top: 19px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.submenu {
+    display: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a {
+    padding: 15px 20px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+
+.menu-html:hover {
+    border-top: 1px yellow solid;
+    background-color: rgba(255, 255, 0, 0.14);
+}
+
+.menu-css:hover {
+    border-top: 1px blue solid;
+    background-color: rgba(0, 0, 255, 0.14);
+}
+
+.menu-javacript:hover {
+    border-top: 1px rgb(2, 255, 2) solid;
+    background-color: rgba(1, 150, 1, 0.14);
+}
+
+.menu-contact:hover {
+    border-top: 1px rgb(223, 3, 3) solid;
+    background-color: rgba(250, 3, 3, 0.14);
+}
+
+.submenu a:hover {
+    font-weight: bold;
+}
