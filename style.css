@@ -55,14 +55,14 @@ p {
     font-size: 33px;
 }
 
-.menuPremo li {
+.rightmenu li {
     list-style: none;
     display: inline-block;
     padding: 1px;
     margin-right: 40px;
 }
 
-.menuPremo li a {
+.rightmenu li a {
     text-decoration: none;
     font-size: small;
     font-weight: bold;
@@ -93,7 +93,7 @@ nav > ul > li {
 
 nav > ul > li > a {
     padding: 20px 30px;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 nav > ul > li > a:hover {
@@ -134,12 +134,12 @@ nav li:hover .submenu {
 }
 
 .menu-html:hover {
-    border-top: 1px yellow solid;
+    border-top: 1px #ffff00 solid;
     background-color: rgba(255, 255, 0, 0.14);
 }
 
 .menu-css:hover {
-    border-top: 1px blue solid;
+    border-top: 1px #0000ff solid;
     background-color: rgba(0, 0, 255, 0.14);
 }
 
